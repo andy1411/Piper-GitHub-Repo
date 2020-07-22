@@ -1,6 +1,6 @@
 pipeline {  
   environment {
-    registry = "YourDockerHubID/YourRepoName"
+    registry = "andy1411/Piper-GitHub-Repo"
     registryCredential = 'dockerhub'    
   }  
   agent any  
